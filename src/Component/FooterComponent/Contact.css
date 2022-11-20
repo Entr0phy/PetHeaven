@@ -1,0 +1,32 @@
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  color: #fff;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactList p {
+  size: 0.5rem;
+}
+
+.contactContainer h2 {
+  font-size: 1rem;
+}
+
+.contactContainer p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 800px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

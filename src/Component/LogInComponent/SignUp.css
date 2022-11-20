@@ -1,0 +1,41 @@
+.signUpContainer {
+  background-image: url("../Images/greenbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.signUpContainer h1 {
+  padding-top: 50%;
+  font-family: "Anton";
+  color: rgb(151, 150, 150);
+}
+
+.signUpContainer p {
+  font-family: "Kanit";
+}
+
+.signUpContainer button {
+  font-family: "Kanit";
+  padding: 0.5rem;
+  background: #fff;
+  color: #2e2e2e;
+  border: 0;
+  border-radius: 16px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.signUpContainer button:hover {
+  background-color: teal;
+  color: #fff;
+}
+@media (max-width: 700px) {
+  .signUpContainer h1 {
+    padding-top: 1rem;
+  }
+
+  .signUpContainer {
+    padding-bottom: 2rem;
+  }
+}

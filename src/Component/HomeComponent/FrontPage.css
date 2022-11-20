@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+.imageContainer {
+  width: fit-content;
+  max-height: 10px;
+  position: relative;
+}
+
+.frontPage {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../Images/cat2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-right: 2rem;
+  font-family: "Permanent Marker";
+  color: #fff;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.frontPage h4,
+.frontPage h2,
+.adobtNow {
+  animation: fadein 2s;
+}
+
+.adobtNow button {
+  padding: 1rem;
+  background-color: rgb(243, 212, 33);
+  color: #535151;
+  font-family: "Permanent Marker";
+  font-size: 1.25rem;
+  margin-right: 2rem;
+  border-radius: 16px;
+  border: 0;
+}
+
+.adobtNow button:hover {
+  background-color: rgb(31, 90, 156);
+  color: #fff;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .frontPage {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    opacity: 1;
+  }
+
+  .adobtNow button {
+    font-size: 1rem;
+  }
+}

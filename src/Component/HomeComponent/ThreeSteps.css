@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap");
+.threeStepsContainer {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.elementContainer {
+  background-color: rgb(240, 219, 219);
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 16px;
+}
+.elementHeader h2 {
+  font-family: "Kanit";
+  font-size: 2rem;
+}
+
+.icons {
+  padding: 1rem;
+  background-color: rgba(255, 187, 0, 0.993);
+  border-radius: 50%;
+}
+
+.elementDesc p {
+  font-family: "Kanit";
+  color: #2e2e2e;
+}
+
+@media (max-width: 800px) {
+  .threeStepsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

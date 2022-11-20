@@ -1,0 +1,62 @@
+.profileElementContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 1rem;
+  text-align: center;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.volunteerContainer {
+  background-color: rgb(255, 142, 127);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 16px;
+}
+
+.elementIcon {
+  padding: 1rem;
+  background-color: rgb(26, 26, 26);
+  border-radius: 50%;
+}
+
+.profileElementContainer p {
+  font-family: "Kanit";
+  color: #444343;
+}
+
+.adoptContainer {
+  background-color: #3589d8;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 16px;
+}
+
+.releaseContainer {
+  background-color: rgb(8, 153, 153);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 16px;
+}
+
+.volunteerContainer:hover,
+.adoptContainer:hover,
+.releaseContainer:hover {
+  background-color: #d3d0d0;
+}
+
+@media (max-width: 800px) {
+  .profileElementContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

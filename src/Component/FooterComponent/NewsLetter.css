@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.news-header {
+  font-family: "Anton";
+  font-size: 2rem;
+  color: rgb(252, 252, 252);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-container .nameSubmit {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 4px 0;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.nameSubmit input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  outline: none;
+}
+
+.nameSubmit .btn {
+  background: #dd9e17;
+  color: #fff;
+  font-family: "Anton";
+  font-size: 1rem;
+  padding: 8px 20px;
+  border-radius: 20rem;
+  border: 0;
+}
+
+.nameSubmit .btn:hover {
+  background-color: teal;
+}
+
+@media (max-width: 800px) {
+  .news-header {
+    font-size: 1rem;
+  }
+  .nameSubmit .btn {
+    padding: 8px 16px;
+  }
+}

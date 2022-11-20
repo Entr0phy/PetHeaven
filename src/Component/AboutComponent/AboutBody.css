@@ -1,0 +1,64 @@
+.aboutBodyContainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+
+.aboutBodyContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.explanationContainer {
+  background-color: aliceblue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.explanationContainer h2 {
+  font-family: "Permanent Marker";
+  font-size: 2rem;
+  color: rgb(97, 86, 199);
+}
+
+.explanationContainer p {
+  font-family: "Kanit";
+  color: #2e2e2e;
+  font-size: medium;
+}
+
+.explanationContainer button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  background-color: pink;
+  border-radius: 16px;
+  font-family: "Kanit";
+  color: #555555;
+  border: 0;
+}
+
+.explanationContainer button:hover {
+  background-color: rgb(36, 163, 121);
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .aboutBodyContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

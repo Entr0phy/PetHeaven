@@ -1,0 +1,99 @@
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 232, 236);
+}
+
+.galleryContainer h1 {
+  font-family: "Permanent Marker";
+  text-align: center;
+  color: rgb(148, 42, 16);
+}
+
+.petContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.petContainer h1 {
+  text-align: center;
+}
+
+.petElements {
+  background-color: teal;
+  margin: 1rem;
+  border-radius: 16px;
+  font-family: "Kanit";
+  color: #fff;
+  animation: fadeInDown 1s ease-in-out;
+}
+.petElements h1 {
+  font-family: "Anton";
+  color: rgb(231, 231, 231);
+}
+.petImageContainer img {
+  border-radius: 16px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.petDesc {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  justify-content: center;
+  color: rgb(58, 57, 57);
+}
+
+.petElements h4 {
+  font-family: "Anton";
+  color: rgb(221, 165, 43);
+}
+
+.adoptBtn {
+  padding-bottom: 0.5rem;
+}
+
+.adoptBtn button {
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  border-radius: 16px;
+  border: 0;
+  font-family: "Kanit";
+  background-color: rgb(236, 114, 114);
+  color: #fff;
+}
+
+.adoptBtn button:hover {
+  background-color: azure;
+  color: #0f2364;
+}
+
+@media (max-width: 600px) {
+  .petContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .petContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

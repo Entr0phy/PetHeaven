@@ -1,0 +1,91 @@
+.signInContainer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.signInContainer h1 {
+  font-family: "Anton";
+  color: rgb(17, 17, 17);
+  font-size: 3rem;
+}
+
+.signInContainer h4,
+.signInContainer p {
+  font-family: "Kanit";
+  color: rgb(145, 145, 145);
+}
+
+.iconsSignInBlue {
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  background-color: rgb(10, 59, 219);
+}
+.iconsSignInBlue:hover,
+.iconsSignInLightBlue:hover,
+.iconsSignInOrange:hover {
+  background-color: rgb(104, 103, 103);
+}
+.iconsSignInLightBlue {
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  background-color: rgb(52, 150, 196);
+}
+
+.iconsSignInOrange {
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  background-color: orange;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.userinputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.userinputContainer input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 16px;
+  background-color: rgb(178, 179, 179);
+  color: #fff;
+  border: 0px;
+  font-family: "Kanit";
+}
+
+.signInContainer button {
+  font-family: "Kanit";
+  background-color: teal;
+  color: #fff;
+  border-radius: 16px;
+  padding: 0.75rem;
+  border: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: small;
+}
+
+.signInContainer button:hover {
+  background-color: rgb(224, 89, 89);
+  color: #2e2e2e;
+}
+
+@media (max-width: 700px) {
+  .userinputContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}

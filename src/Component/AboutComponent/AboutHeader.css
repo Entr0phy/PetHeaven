@@ -1,0 +1,36 @@
+.aboutHeader {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-width: 35rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  animation-name: slideIn;
+  animation-duration: 1s;
+}
+
+.aboutHeader h1 {
+  font-family: "Permanent Marker";
+  color: rgb(219, 162, 38);
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+.aboutHeader p {
+  font-family: "Kanit";
+  color: #666464;
+}
+
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
