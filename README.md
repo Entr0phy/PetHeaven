@@ -17,6 +17,7 @@ Pet Heaven is being hosted live on [Firebase](https://petheaven-9b1c4.web.app)
 - React-icons 
 - Backendless (To communicate with Backendless database)
 - React Routing (For SPA)
-- Backendless for database (Handle user authentication and list out pets up for adoption)
+- Backendless for database (Handle user authentication) 
+- Firebase realtime database (Store details about the pets available for adoption)
 
 **Do reach out to me and let me know should you know of improvements, i am still an undergraduate so still trying to take in and learn as much as i can.**
